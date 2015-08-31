@@ -1,0 +1,2 @@
+# /etc/exports
+/var/lib/tftpboot 10.0.0.0/24(ro)
