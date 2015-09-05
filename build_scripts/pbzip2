@@ -1,0 +1,4 @@
+# bzr branch lp:pbzip2
+wget https://launchpad.net/pbzip2/1.1/1.1.12/+download/pbzip2-1.1.12.tar.gz
+tar xvf pbzip2-1.1.12.tar.gz
+cd pbzip2-1.1.12

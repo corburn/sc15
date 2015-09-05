@@ -1,0 +1,7 @@
+mkdir $HOME/workspace
+cd $HOME/workspace
+git clone https://github.com/libevent/libevent.git
+cd libevent
+./configure --prefix=$LOCAL
+make
+make install

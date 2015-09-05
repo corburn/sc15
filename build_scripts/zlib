@@ -1,0 +1,8 @@
+set -euxo pipefail
+cd $WORKSPACE
+git clone git@github.com:cloudflare/zlib.git
+mkdir build_zlib
+cd build_zlib
+cmake -DCMAKE_INSTALL_PREFIX=PATH:$LOCAL ../zlib
+make
+make install
